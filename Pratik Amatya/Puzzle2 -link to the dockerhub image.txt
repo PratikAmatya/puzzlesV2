@@ -1,1 +1,7 @@
+Link to docker repository
 https://hub.docker.com/repository/docker/pratikamatya/whoami
+
+Steps to run:
+docker pull pratikamatya/whoami
+docker run -p 4000:3000 [dockerID] e.g.: docker run -p 4000:3000 65669c26b0e5
+http://localhost:4000/
